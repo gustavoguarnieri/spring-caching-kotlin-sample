@@ -1,0 +1,13 @@
+server:
+  port: 9080
+  servlet:
+    context-path: /spring-caching
+
+swagger:
+  enabled: true
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://admin:masterkey@localhost:27017/caching?authSource=admin
+      auto-index-creation: true
